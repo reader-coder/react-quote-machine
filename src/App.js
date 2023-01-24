@@ -59,7 +59,7 @@ const App = () => {
     <div className='bg-gray-900 h-screen text-white flex flex-col items-center pt-[50px]'>
       <h1 className='text-4xl font-bold bg-gradient-to-br from-cyan-500 to-blue-600 bg-clip-text text-transparent'>Quote Machine</h1>
       <div className='w-[80%] flex flex-col items-center sm:flex-row justify-center'>
-      <input ref={searchRef} className='mt-10 py-2 px-3 text-black focus:outline-none border-b-2 border-white bg-transparent' type="text" placeholder='Topic of your quote...'/>
+      <input ref={searchRef} className='mt-10 py-2 px-3 text-white focus:outline-none border-b-2 border-white bg-transparent' type="text" placeholder='Topic of your quote...'/>
       <div className='flex mt-4'>
       <button className='ml-2 px-3 py-[8px] border-2 border-blue-500  rounded-lg hover:bg-blue-500 transition duration-200' onClick={handleSearch}
       title='Search'
